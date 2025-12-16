@@ -47,7 +47,7 @@ Radon Averaging achieves rotation invariance by:
 2. **Averaging over Discrete Rotations** ($$G$$): Eliminates boundary artifacts via group averaging
 3. **Standard CNN Backbone** ($$Φ$$): No architectural changes required
 ```math
-RA_G^Φ(I) = \frac{1}{|G|} \sum_{g \in G} (Φ \circ π(g) \circ ℛ)($$)
+RA_G^Φ(I) = \frac{1}{|G|} \sum_{g \in G} (Φ \circ π(g) \circ ℛ)(I)
 ```
 ---
 

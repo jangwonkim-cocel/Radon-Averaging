@@ -40,7 +40,7 @@ This repository contains a pytorch implementation of **Radon Averaging (RA)** fr
 
 ---
 
-## Method Overview
+## Method
 
 Radon Averaging achieves rotation invariance by:
 1. **Radon Transform** (ℛ): Converts images to sinograms where rotation → circular shift
@@ -48,4 +48,24 @@ Radon Averaging achieves rotation invariance by:
 3. **Standard CNN Backbone**: No architectural changes required
 ```math
 RA_G^Φ(I) = \frac{1}{|G|} \sum_{g \in G} (Φ \circ π(g) \circ ℛ)(I)
+```
+---
+
+## Key Advantages
+- **Plug-and-play**: works with standard (pretrained) CNN backbones (no architectural changes).
+- **Rotation invariance in practice**: stable representations under image rotations.
+- **Reduces boundary artifacts**: group averaging mitigates Radon transform edge effects.
+---
+
+## Citation Example
+```
+@article{kim2026radonaveraging,
+  title   = {Radon Averaging: A practical approach for designing rotation-invariant models},
+  author  = {Kim, Jangwon and Ryoo, Sanghyun and Kim, Jiwon and Hong, Junkee and Han, Soohee},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume  = {164},
+  pages   = {113299},
+  year    = {2026},
+  doi     = {10.1016/j.engappai.2025.113299}
+}
 ```

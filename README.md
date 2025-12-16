@@ -20,7 +20,7 @@
   <br/><br/>
   
   <!-- Radon Transform Animation -->
-  <img src="./radon_rotation.gif" width="700px"/>
+  <img src="./gif_for_readme.gif" width="700px"/>
 </div>
 
 ---

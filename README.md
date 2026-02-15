@@ -28,7 +28,7 @@
 ## Engineering Applications of Artificial Intelligence (EAAI 2026)
 ### Pytorch Implementation
 
-This repository contains a pytorch implementation of **Radon Averaging (RA)** from the paper:
+This repository contains a pytorch implementation of **Radon Averaging (RA)** of the paper:
 
 > **Radon Averaging: A practical approach for designing rotation-invariant models**  
 > Jangwon Kim, Sanghyun Ryoo, Jiwon Kim, Junkee Hong, Soohee Han  
